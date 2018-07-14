@@ -1,12 +1,18 @@
 .backgrounds{
     /*background-image: url(' ../img/talent.jpg')*/
-     background-repeat: no-repeat;
-     background-color:   #f1c40f;
+     background-repeat: no-repeat;     background-color:   #f1c40f;
 }
+
 .PING-PONG{
      background-color:#3bafda;
      height:90px;
      position: fixed;
+}
+.PING-PONG :hover {
+  background-color: rgba(255, 255, 2555, 0.5);
+ transition: 2s;
+ color: rgba(255, 255, 2555, 0.5);
+
 }
 .textping{
   font-size:500%;
@@ -28,8 +34,13 @@ border:1px solid rgba(100,100,100,0.8);
 height:470px;
 overflow-y: scroll;
  scroll-behavior: smooth;
-
 }
+.rightbody:hover
+	{
+	background-image:url(' ../img/animals-985500.jpg');
+  background-size:98%;
+  transition:8s;
+	}
 .textping2{
   font-size:500%;
   background-color: ;
@@ -65,11 +76,22 @@ text-shadow:1px 1px 2px rgba(0,0,0,1.9);
   letter-spacing:15px;
   text-shadow:1px 1px 2px rgba(0,0,0,1.9);
 }
-.form-inline{
+.form{
   font-size:200%;
   font-family: cursive;
   color: white;
   font-weight:bold;
   letter-spacing:5px;
   text-shadow:1px 1px 2px rgba(0,0,0,1.9);
+}
+.ul {
+  text-align: center;
+  font-size:1.4em;
+  background-color: rgba(0,0, 5, 0.5);
+  font-family: sans-serif;
+  color: white;
+  font-weight:bold;
+  letter-spacing:5px;
+  text-shadow:1px 1px 2px rgba(0,0,0,1.9);
+  text-decoration:none;
 }
