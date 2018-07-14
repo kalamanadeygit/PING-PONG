@@ -1,58 +1,20 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
-<link rel="stylesheet" href="css/index.css">
-<link rel="shortcut icon" href="img/images.jpeg" />
-
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <title>KALAMA-PROJECT2</title>
-  </head>
-  <body class="backgrounds">
-  <!-- first backgrounds with the Menu -->
-    <section class=" " >
-    <div class=" PING-PONG container-fluid  col-lg-12  ">
-      <h1 class="col-lg-12 col-sm-12 col-md-12 container textping text-center">PING-PONG</h1>
-    </div>
-  </section>
-  <section class="section">
-    <div class=" col-lg-2 col-md-2 col-sm-12  col-xm-12 leftbody ">
-      <h2 class="text-center about">About PING-PONG</h2><br>
-      <h4> <strong> <span style="color:white;"> -</span>Created by :</strong><span style="color:white; text-shadow:1px 1px 2px rgba(0,0,0,1.9);"> KALAMA</span></h4><br>
-
-      <h4> <strong> <span style="color:white;"> -</span>Github UserName /URL:</strong><span style="color:white; text-shadow:1px 1px 2px rgba(0,0,0,1.9);"> Kalamanadeygit/</span></h4><br>
-
-      <h4> <strong > Instruction for the game</strong></h4>
-      <p style="color:white; font-size:1em;">
-        Numbers divisible by 3 are replaced with "ping" <br>
-    Numbers divisible by 5 are replaced with "pong" <br>
-    Numbers divisible by 15 are replaced with "pingpong" </p>
-    </div>
-    <div class=" col-lg-10 col-md-8 col-sm-12 col-xm-12 rightbody ">
-      <h2 class="text-center textlet">let's play</h2><br>
-      <div class="">
-        <form class="form-inline " id="form">
-          <label for="number" class="mr-sm-2">Enter your number here:</label>
-          <input type="number" class="form-control col-lg-4 mr-sm-3" id="countTo">
-          <button type="submit" class="btn btn-primary btn-lg col-lg-2 ">Submit</button>
-        </form></div>
-        <div class="">
-          <ul id="display"></ul>
-        </div>
-
-      </div>
-    </div>
-</section>
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-<script src="js/scripts.js" charset="utf-8"></script>
-  </body>
-</html>
+#### PING-PONG
+#### By **{KALAMA HAFISOU}**
+## Description
+{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+## Specification
+* it count up to the provided number
+* to list setup instructions
+* in a simple
+* easy-to-understand
+* format
+{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
+## Known Bugs
+{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+## Technologies Used
+{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}
+## Support and contact details
+{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
+### License
+*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+Copyright (c) {year} **{List of contributors or company name}**
